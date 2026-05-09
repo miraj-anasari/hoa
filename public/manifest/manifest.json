@@ -1,0 +1,78 @@
+{
+  "name": "HOA Management Application",
+  "short_name": "HOA",
+  "description": "Modern native-style HOA mobile application",
+  "start_url": "/pwa/home",
+  "scope": "/pwa/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/screenshot-540x720.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/icons/screenshot-1280x720.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Pay Now",
+      "short_name": "Pay",
+      "description": "Make a payment",
+      "url": "/pwa/invoice?action=pay",
+      "icons": [
+        {
+          "src": "/icons/pay-icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Invoices",
+      "short_name": "Invoices",
+      "description": "Check your bills",
+      "url": "/pwa/invoice",
+      "icons": [
+        {
+          "src": "/icons/invoice-icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
