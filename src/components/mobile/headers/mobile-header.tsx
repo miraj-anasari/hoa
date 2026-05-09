@@ -53,7 +53,7 @@ export const MobileHeader: React.FC<MobileHeaderProps> = ({
       )}
 
       <div className="mobileHeaderRight">
-        {rightAction ? (
+        {/* {rightAction ? (
           rightAction
         ) : (
           <>
@@ -64,7 +64,7 @@ export const MobileHeader: React.FC<MobileHeaderProps> = ({
               <Settings size={20} />
             </button>
           </>
-        )}
+        )} */}
       </div>
     </header>
   );
